@@ -30,9 +30,9 @@ function initMasonry() {
         items: 'article'
       };
 
-    $( masonryArchive ).imagesLoaded( function() {
-      $( masonryArchive ).colcade( masonryArchiveOptions );
-    } );
+    // $( masonryArchive ).imagesLoaded( function() {
+    //   $( masonryArchive ).colcade( masonryArchiveOptions );
+    // } );
   }
 
 function PostHover() {
