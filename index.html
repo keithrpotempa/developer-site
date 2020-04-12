@@ -10,9 +10,10 @@
 	<!-- STYLESHEETS -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/components/shape.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -50,14 +51,19 @@
 					<ul class="social-share light list-inline has-animation" data-delay="30">
 						<li class="list-inline-item">
 							<a href="https://github.com/keithrpotempa">
-								<i class="github icon"></i>
+								<i class="github icon big"></i>
 							</a>
 						</li>
 						<li class="list-inline-item">
 							<a href="https://www.linkedin.com/in/keithrpotempa/">
-								<i class="linkedin icon"></i>
+								<i class="linkedin icon big"></i>
 							</a>
-						</li>					
+						</li>	
+						<li class="list-inline-item">
+							<a href="https://twitter.com/keithrpotempa">
+								<i class="twitter icon big"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -78,7 +84,9 @@
 				<div class="col-lg-8 col-md-12">
 					<nav id="main-menu" class="text-center">
 						<ul>
-							<li><a href="#">About</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#tech">Technologies</a></li>
+							<li><a href="#projects">Projects</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
@@ -88,60 +96,287 @@
 	</section>
 	<!-- header section -->
 
+	<!-- content section -->
+
+	<div class="ui section divider"></div>
+
+	<!-- about -->
+	<div class="ui very padded text container entry-media has-animation" data-delay="0">
+		<h2 class="ui header" id="about">ABOUT ME</h2>
+		<p>
+			Software Developer with 4+ years proven IT experience in Sysadmin and Help Desk roles. Skilled educator, communicator, trainer, and technical writer. Confident working and thinking in both micro and macro scales from an extensive background and education in Creative Writing; with years writing novels and teaching novel structure courses to adults.
+		</p>
+	</div>
+
+	<div class="ui section divider"></div>
+
+	<!-- experience -->
+	<div class="ui very padded text container has-animation" data-delay="0">
+		<h2 class="ui header" id="experience">
+			TECHNICAL EXPERIENCE
+		</h2>
+
+		<div class="ui cards stackable">
+			<div class="ui raised fluid card">
+				<div class="content">
+					<div class="header">Apprentice Developer</div>
+					  <div class="content">
+							<img class="ui avatar image" src="https://res.cloudinary.com/krp/image/upload/v1586442547/keithpotempa.com/Nashville_Software_School_2.5c01a0cfba061_mhos4e.jpg"> Nashville Software School
+						</div>
+						<div class="meta">
+							<span class="category">
+								Jan 2020 - July 2020
+							</span>
+						</div>
+						<div class="description">
+							<p>
+								Full-time six month intensive program learning front-to-back-end web development. Individual and team projects all completed using GitHub and Scrum workflow.
+							</p>
+						</div>
+				</div>
+			</div>
+
+			<div class="ui raised fluid card">
+				<div class="content">
+					<div class="header">Dedicated Support</div>
+					  <div class="content">
+							<img class="ui avatar image" src="https://res.cloudinary.com/krp/image/upload/v1586442750/keithpotempa.com/0_uib2an.png"> TekLinks
+						</div>
+						<div class="meta">
+							<span class="category">
+								Apr 2016 - Nov 2016
+							</span>
+						</div>
+						<div class="description">
+							<p>
+								TekLinks is a managed IT solution provider. In my role as Dedicated Support, I was an employee leased out to a client company: a healthcare call-center startup. There, I solved problems in the combined role of Help Desk through Sysadmin I.
+							</p>
+						</div>
+				</div>
+			</div>
+
+			<div class="ui raised fluid card">
+				<div class="content">
+					<div class="header">
+						Technical Support Specialist
+					</div>
+					  <div class="content">
+							Rubicon, Inc.
+						</div>
+						<div class="meta">
+							<span class="category">
+								Apr 2010 - Sep 2012
+							</span>
+						</div>
+						<div class="description">
+							<p>
+								Rubicon is a home healthcare company building their own in-house web-based EMR suited for home health. Their desktop and server environments were mostly Linux-based. I served as a help desk role for their 200+ users and performed Sysadmin duties.
+							</p>
+						</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="ui section divider"></div>
+
+	<!-- projects -->
+	 <div class="ui raised very padded text container has-animation" data-delay="0">
+		<h2 class="ui header" id="projects">
+			PROJECTS
+		</h2>
+      <div class="ui four item fluid tabs menu">
+				<a data-tab="flip up" class="item active"><i class="up long arrow icon"></i></a>
+				<a data-tab="flip left" class="item"><i class="left long arrow icon"></i></a>
+				<a data-tab="flip right" class="item"><i class="right long arrow icon"></i></a>
+				<a data-tab="flip down" class="item"><i class="down long arrow icon"></i></a>
+			</div>
+			<!-- TODO: get square "closeup" images for this, make cards with explanations-->
+			<div class="ui very padded container">
+				<div class="ui cube shape">
+					<div class="sides">
+						<div class="side active">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464955/keithpotempa.com/FCC/1_r9oi35.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Character List View
+									</div>
+									<div class="description">
+										Characters created with the app are listed in a summarized form, with the ability to filter by character type and subtype. 
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="side">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464956/keithpotempa.com/FCC/2_usdhb9.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Character Sheet View
+									</div>
+									<div class="description">
+										The Sheet view shows all the details of a character, and allows tracking of stress and consequences during a play session.  
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="side">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464956/keithpotempa.com/FCC/3_ifuk9b.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Character Creation
+									</div>
+									<div class="description">
+										The charcter creation process begins with choosing the character type and subtype. These decisions change the amount of form fields in the coming steps according to the rules of that character's subtype, and provide customized tooltips at each step.   
+									</div>
+								</div>
+						</div>
+						<div class="side">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464956/keithpotempa.com/FCC/4_mya8gk.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Skill Selection
+									</div>
+									<div class="description">
+										The skill selection screen utilizes multiselectors. The view also shows the customized tooltips provided for the chosen character type (PC).   
+									</div>
+								</div>
+						</div>
+						<div class="side">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464956/keithpotempa.com/FCC/5_xhykxl.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Character Creation Review
+									</div>
+									<div class="description">
+										The user is given the chance to review their character before saving them. This view reuses the Charcter Sheet component, but all the data is still in state, and has not been saved to the database.
+									</div>
+								</div>
+						</div>
+						<div class="side">
+							<div class="ui card fluid">
+								<div class="image">
+									<img class="ui image huge" src="https://res.cloudinary.com/krp/image/upload/v1586464956/keithpotempa.com/FCC/6_kjrfgx.jpg">
+								</div>
+								<div class="content">
+									<div class="header">
+										Game Mechanics
+									</div>
+									<div class="description">
+										The app also displays several read-only pieces of rule-based information in a filterable format: like Character Types (shown here), Skills, and Stunts. 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="ui cards stackable">
+			<div class="ui raised fluid card">
+				<div class="content">
+					<div class="header">
+						Fate Character Codex
+					</div>
+						<div class="content">
+						<a href="https://github.com/keithrpotempa/fate-character-codex">
+							<i class="github icon big"></i>						
+						</a>
+							Front End Capstone
+						</div>
+						<div class="meta">
+							<span class="category">
+								React, JSX, JavaScript, NPM
+							</span>
+						</div>
+						<div class="description">
+							<p>
+								For my front-end capstone project at NSS, I created a React app for creacting characters in a favorite tabletop roleplaying game of mine, Fate Core. I was excited to experiment with technologies not covered in class: including Semantic UI React, pagination, and multi-step forms. 
+							</p>
+						</div>
+				</div>
+			</div>
+		</div>
+
+
+	<div class="ui section divider"></div>
+
+	<!-- tech -->
+	<div class="ui raised very padded text container has-animation" data-delay="0">
+		<h2 class="ui header" id="tech">TECHNOLOGIES</h2>
+		<i class="react icon huge"></i>
+		<i class="js square icon huge"></i>
+		<i class="python icon huge"></i>
+		<!-- TODO: NEEDS DJANGO ICON -->
+		<i class="npm icon huge"></i>
+		<i class="html5 icon huge"></i>
+		<i class="css3 alternate icon huge"></i>
+		<i class="aws icon huge"></i>
+		<i class="git icon huge"></i>
+		<i class="github icon huge"></i>
+		<i class="bitbucket icon huge"></i>
+		<i class="trello icon huge"></i>
+		<i class="windows icon huge"></i>
+		<i class="linux icon huge"></i>
+		<i class="apple icon huge"></i>
+	</div>
+
 	<!-- footer wrapper -->
 	<section class="footer-wrapper pad-50 bg-lightblue style-2">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-4 widget">
-				<!--
-					<a href="index.html" class="logo"><img src="images/logo-3.png" alt="logo"></a>
-				-->
-				</div>
-				<div class="col-lg-3  col-md-12 widget">
-					<span class="widget-title">Subscribe</span>
-					<form action="#" class="subscribe-form mt-3">
-						<input type="text" placeholder="Your email address">
-						<button class="subscribe-bttn"><i class="fa fa-arrow-right"></i></button>
-					</form>
-				</div>
-			</div>
 			<div class="row pad-top-50">
-				<div class="col-lg-3 col-md-4 widget">
+
 					<ul class="social-share list-inline">
 						<li class="list-inline-item">
 							<a href="https://github.com/keithrpotempa">
-								<i class="github icon"></i>
+								<i class="github icon big"></i>
 							</a>
 						</li>
 						<li class="list-inline-item">
 							<a href="https://www.linkedin.com/in/keithrpotempa/">
-								<i class="linkedin icon"></i>
+								<i class="linkedin icon big"></i>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://twitter.com/keithrpotempa">
+								<i class="twitter icon big"></i>
 							</a>
 						</li>
 					</ul>
-				</div>
-				<!-- 
-				<div class="col-lg-6 col-md-4 widget">
-						<ul class="widget-link-2 list-inline">
-							<li class="list-inline-item"><a href="#">Home</a></li>
-						</ul>
-				</div>
-				-->
-				<div class="col-lg-3 col-md-4 widget text-right">
+
+
 					<p>© 2020 Keith Potempa</p>
-				</div>
 			</div>
 		</div>
 	</section>
 	<!-- footer-wrapper -->
 
-
-
-		 
 	<!-- SCRIPTS -->
+	<!-- Images loaded was removed from masonry package -->
+	<!-- https://stackoverflow.com/a/32283807 -->
 	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/semantic.min.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>	
 	<script src="js/popper.min.js"></script>
 	<script src="js/plugin.js"></script>
+	<script src="js/shape.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
